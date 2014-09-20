@@ -11,11 +11,13 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Why you need FTE Calculator
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+#### At Dialogue Services we provide all the tools you need to do your job in the most efficient way.
+
+
+#### When you are preparing your departmental budget you will need to enter the total hours for all your staff members onto form 56 line 22.
+
 
 --- .class #id 
 
@@ -24,3 +26,16 @@ knit        : slidify::knit2slides
 ### Working on the budget at Dialogue Services
 
 --- .class #id
+
+## Slide 3
+
+
+---
+
+## Slide 4
+
+---
+
+## Slide 5
+
+---
