@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FTE Calculation</title>
+  <title>The FTE Calculator</title>
   <meta charset="utf-8">
-  <meta name="description" content="FTE Calculation">
+  <meta name="description" content="The FTE Calculator">
   <meta name="author" content="Joe">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,7 +13,8 @@
     media="only screen and (max-device-width: 480px)" >
   <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
   <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
-  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/quiz/css/demo.css"></link>
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="libraries/widgets/bootstrap/css/bootstrap.css"></link>
+<link rel=stylesheet href="libraries/widgets/quiz/css/demo.css"></link>
 <link rel=stylesheet href="./assets/css/ribbons.css"></link>
 
   
@@ -33,8 +34,8 @@
     <!-- LOGO SLIDE -->
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
-    <h1>FTE Calculation</h1>
-    <h2>Budget Prep - Dialogue Services, Inc</h2>
+    <h1>The FTE Calculator</h1>
+    <h2>Budget Prep Tools - Dialogue Services, Inc</h2>
     <p>Joe<br/>Budget Director</p>
   </hgroup>
   <article></article>  
@@ -44,12 +45,14 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Why you need FTE Calculator</h2>
+    <h2>Why you need to use the FTE Calculator</h2>
   </hgroup>
   <article data-timings="">
-    <h4>At Dialogue Services we provide all the tools you need to do your job in the most efficient way.</h4>
-
-<h4>When you are preparing your departmental budget you will need to enter the total hours for all your staff members onto form 56 line 22.</h4>
+    <ol>
+<li><p>At Dialogue Services we provide all the tools you need to do your job in the most efficient way.</p></li>
+<li><p>When you are preparing your departmental budget you will need to enter the total hours for all your staff members using form 56 and entering your total number of FTEs on line 22.</p></li>
+<li><p>The FTE Calculator makes it easy to convert the total number of staff hours in your departmental budget to FTEs.</p></li>
+</ol>
 
   </article>
   <!-- Presenter Notes -->
@@ -57,46 +60,90 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>Calculating FTEs using alternate methods</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Working on the budget at Dialogue Services</h3>
+    <ol>
+<li>If you have R available you could do something like this:</li>
+</ol>
+
+<pre><code class="r">t&lt;-sum(230,456,3000,5000,1900,457)
+Fte&lt;- t/2080
+print(Fte)
+</code></pre>
+
+<pre><code>## [1] 5.309
+</code></pre>
+
+<ol>
+<li><p>If you have a desk calculator you could enter the numbers, find the total and then divide</p></li>
+<li><p>Using the FTE calculator you simply enter the total, press submit and the FTE calculation is available for entry on the form.</p></li>
+</ol>
+
+<p>(An update of FTE Calculator is in the final stages of testing. The next version to be released in the Fall will allow entry of individual hours as well as total hours)</p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="id" style="background:;">
+<slide class="" id="slide-3" style="background:;">
   <hgroup>
-    <h2>Slide 3</h2>
+    <h2>Should I use the FTE Calculator?</h2>
   </hgroup>
   <article data-timings="">
     
+<div class="quiz quiz-single well ">
+  <p>Quiz</p>
+
+<h3>I would use the FTE Calculator If the Total number of staff hours in my department is:</h3>
+
+<ol>
+<li><p><em>234 hours</em></p></li>
+<li><p><em>3000 hours</em></p></li>
+<li><p>0 hours</p></li>
+<li><p><em>9000 hours</em></p></li>
+<li><p><em>1 or more hours</em></p></li>
+</ol>
+
+  <button class="quiz-submit btn btn-primary">Submit</button>
+  <button class="quiz-toggle-hint btn btn-info">Show Hint</button>
+  <button class="quiz-show-answer btn btn-success">Show Answer</button>
+  <button class="quiz-clear btn btn-danger">Clear</button>
+  
+  <div class="quiz-hint">
+  <p>If your budget is more than 0 hours you will have a total number of hours to enter.</p>
+
+</div>
+<div class="quiz-explanation">
+  <p>If your department is not staffed with volunteers you will have a number greater than 0 to enter for total hours and therefore you should use the FTE calculator.</p>
+
+</div>
+</div>
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-4" style="background:;">
   <hgroup>
-    <h2>Slide 4</h2>
+    <h2>Accessing the FTE Calculator</h2>
   </hgroup>
   <article data-timings="">
-    
+    <h4>To use the FTE Calculator</h4>
+
+<ol>
+<li><p>go to <a href="https://joereads.shinyapps.io/App-1/">https://joereads.shinyapps.io/App-1/</a></p></li>
+<li><p>Find the planned work hours for each of your staff members for the coming year</p></li>
+<li><p>Find the total hours for all staff members including yourself</p></li>
+<li><p>Enter the total into the FTE Calculator</p></li>
+<li><p>Press submit</p></li>
+<li><p>Enter the number of FTEs on your budget form</p></li>
+</ol>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-5" style="background:;">
-  <hgroup>
-    <h2>Slide 5</h2>
-  </hgroup>
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-6" style="background:;">
   <article data-timings="">
     
   </article>
@@ -109,38 +156,32 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Why you need FTE Calculator'>
+        data-slide=1 title='Why you need to use the FTE Calculator'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='Calculating FTEs using alternate methods'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 3'>
+        data-slide=3 title='Should I use the FTE Calculator?'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 4'>
+        data-slide=4 title='Accessing the FTE Calculator'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Slide 5'>
+        data-slide=5 title=''>
          5
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title=''>
-         6
       </a>
     </li>
   </ul>
@@ -152,10 +193,18 @@
   <![endif]-->
 </body>
   <!-- Load Javascripts for Widgets -->
-  <script src="libraries/widgets/quiz/js/jquery.quiz.js"></script>
+  <script src="libraries/widgets/bootstrap/js/bootstrap.min.js"></script>
+<script src="libraries/widgets/bootstrap/js/bootbox.min.js"></script>
+<script src="libraries/widgets/quiz/js/jquery.quiz.js"></script>
 <script src="libraries/widgets/quiz/js/mustache.min.js"></script>
 <script src="libraries/widgets/quiz/js/quiz-app.js"></script>
 
+  <script>  
+  $(function (){ 
+    $("#example").popover(); 
+    $("[rel='tooltip']").tooltip(); 
+  });  
+  </script>  
   
   <!-- LOAD HIGHLIGHTER JS FILES -->
   <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
